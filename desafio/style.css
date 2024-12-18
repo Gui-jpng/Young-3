@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    height: 100vh;
+    font-size: 80px;
+}
+
+.numero{
+    border-radius: 20px;
+    background-color: red;
+   width: 200px;
+   height: 200px;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+   
+   
+}
+
+
+@keyframes expandir {
+    0% { width:200px; }
+    50% { width:100vw; }
+    100% { width:200px; }
+
+}
+
+.expandir{
+    animation: expandir 2s ease-in-out infinite;
+}
+
